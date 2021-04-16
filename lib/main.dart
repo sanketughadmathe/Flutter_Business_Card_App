@@ -11,9 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xFF303234),
         body: SafeArea(
+          // mainAxisSize: MainAxisSize.min,
+          // verticalDirection: VerticalDirection.down
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
