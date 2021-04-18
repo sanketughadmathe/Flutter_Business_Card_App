@@ -15,8 +15,6 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Color(0xFF303234),
         body: SafeArea(
-          // mainAxisSize: MainAxisSize.min,
-          // verticalDirection: VerticalDirection.down
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -30,8 +28,6 @@ class MyApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                   fontSize: 40,
                   color: Colors.white,
-                  // backgroundColor: Colors.black,
-                  // fontWeight: FontWeight.bold,
                 ),
               ),
               Text(
