@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -13,14 +12,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Color(0xFF303234),
+        backgroundColor: Color(0xFF607d8b),
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
-                radius: 50,
-                backgroundImage: AssetImage('images/1 - Copy.jpg'),
+                radius: 60,
+                backgroundImage: AssetImage('images/1.png'),
               ),
               Text(
                 'Sanket Ughadmathe',
